@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		2737C65D236DD9E600AFE8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C65C236DD9E600AFE8FA /* AppDelegate.swift */; };
 		2737C65F236DD9E600AFE8FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C65E236DD9E600AFE8FA /* SceneDelegate.swift */; };
-		2737C661236DD9E600AFE8FA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C660236DD9E600AFE8FA /* FirstViewController.swift */; };
-		2737C663236DD9E600AFE8FA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C662236DD9E600AFE8FA /* SecondViewController.swift */; };
 		2737C666236DD9E600AFE8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737C664236DD9E600AFE8FA /* Main.storyboard */; };
 		2737C668236DD9E900AFE8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2737C667236DD9E900AFE8FA /* Assets.xcassets */; };
 		2737C66B236DD9E900AFE8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737C669236DD9E900AFE8FA /* LaunchScreen.storyboard */; };
+		F4F01EE92370655F005305EA /* RoulettenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F01EE82370655F005305EA /* RoulettenViewController.swift */; };
+		F4F01EED237065DE005305EA /* KogebogenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F01EEC237065DE005305EA /* KogebogenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2737C659236DD9E600AFE8FA /* Madroulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madroulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2737C65C236DD9E600AFE8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2737C65E236DD9E600AFE8FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2737C660236DD9E600AFE8FA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2737C662236DD9E600AFE8FA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2737C665236DD9E600AFE8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2737C667236DD9E900AFE8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2737C66A236DD9E900AFE8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2737C66C236DD9E900AFE8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F01EE82370655F005305EA /* RoulettenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoulettenViewController.swift; sourceTree = "<group>"; };
+		F4F01EEC237065DE005305EA /* KogebogenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KogebogenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				2737C65C236DD9E600AFE8FA /* AppDelegate.swift */,
 				2737C65E236DD9E600AFE8FA /* SceneDelegate.swift */,
-				2737C660236DD9E600AFE8FA /* FirstViewController.swift */,
-				2737C662236DD9E600AFE8FA /* SecondViewController.swift */,
 				2737C664236DD9E600AFE8FA /* Main.storyboard */,
 				2737C667236DD9E900AFE8FA /* Assets.xcassets */,
 				2737C669236DD9E900AFE8FA /* LaunchScreen.storyboard */,
 				2737C66C236DD9E900AFE8FA /* Info.plist */,
+				F4F01EE82370655F005305EA /* RoulettenViewController.swift */,
+				F4F01EEC237065DE005305EA /* KogebogenViewController.swift */,
 			);
 			path = Madroulette;
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2737C663236DD9E600AFE8FA /* SecondViewController.swift in Sources */,
-				2737C661236DD9E600AFE8FA /* FirstViewController.swift in Sources */,
+				F4F01EED237065DE005305EA /* KogebogenViewController.swift in Sources */,
 				2737C65D236DD9E600AFE8FA /* AppDelegate.swift in Sources */,
+				F4F01EE92370655F005305EA /* RoulettenViewController.swift in Sources */,
 				2737C65F236DD9E600AFE8FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
