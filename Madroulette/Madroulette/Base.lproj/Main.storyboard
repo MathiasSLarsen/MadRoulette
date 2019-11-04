@@ -15,15 +15,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VYq-7e-yfL">
-                                <rect key="frame" x="87" y="156" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDI-rW-w0f">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem id="bPu-UW-n5P">
+                                        <barButtonItem key="rightBarButtonItem" image="person.crop.circle" catalog="system" id="S0y-rj-5FX"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="tkv-Rj-t6B">
+                                <rect key="frame" x="0.0" y="88" width="414" height="676"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veggie Pizza" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AFS-T9-Mh5">
+                                <rect key="frame" x="40" y="629" width="334" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="95" id="Cmp-pA-VMK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
+                                <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CDI-rW-w0f" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="0D3-a4-6Uo"/>
+                            <constraint firstItem="tkv-Rj-t6B" firstAttribute="top" secondItem="CDI-rW-w0f" secondAttribute="bottom" id="2kx-HW-CA2"/>
+                            <constraint firstItem="tkv-Rj-t6B" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="4if-DK-9Am"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="tkv-Rj-t6B" secondAttribute="trailing" id="DJS-Qa-fzs"/>
+                            <constraint firstItem="tkv-Rj-t6B" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="EGX-VU-t3Z"/>
+                            <constraint firstItem="AFS-T9-Mh5" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="40" id="Tog-ka-IOg"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="tkv-Rj-t6B" secondAttribute="bottom" id="WUl-g2-tVP"/>
+                            <constraint firstItem="tkv-Rj-t6B" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="ZIB-VV-Jm0"/>
+                            <constraint firstItem="CDI-rW-w0f" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="eW4-e7-rpD"/>
+                            <constraint firstItem="CDI-rW-w0f" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="ffe-Sr-fEB"/>
+                            <constraint firstItem="AFS-T9-Mh5" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="40" id="h65-tF-xuI"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="AFS-T9-Mh5" secondAttribute="trailing" constant="40" id="htt-R2-zgh"/>
+                            <constraint firstItem="tkv-Rj-t6B" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="muC-yh-44q"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="AFS-T9-Mh5" secondAttribute="bottom" constant="40" id="s9E-xb-Z2U"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="AFS-T9-Mh5" secondAttribute="trailing" constant="40" id="tzF-3z-5f3"/>
+                            <constraint firstItem="tkv-Rj-t6B" firstAttribute="top" secondItem="CDI-rW-w0f" secondAttribute="bottom" id="yex-EA-G5C"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Madrouletten" image="arrow.right.arrow.left.circle" catalog="system" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,8 +125,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Placeholder" width="3840" height="5760"/>
         <image name="arrow.right.arrow.left.circle" catalog="system" width="64" height="60"/>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+        <image name="person.crop.circle" catalog="system" width="64" height="60"/>
     </resources>
 </document>
