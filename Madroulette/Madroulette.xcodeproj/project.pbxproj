@@ -12,6 +12,8 @@
 		2737C666236DD9E600AFE8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737C664236DD9E600AFE8FA /* Main.storyboard */; };
 		2737C668236DD9E900AFE8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2737C667236DD9E900AFE8FA /* Assets.xcassets */; };
 		2737C66B236DD9E900AFE8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737C669236DD9E900AFE8FA /* LaunchScreen.storyboard */; };
+		2737C67323718F3400AFE8FA /* Dish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737C67223718F3400AFE8FA /* Dish.storyboard */; };
+		2737C6752371954800AFE8FA /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C6742371954800AFE8FA /* DishViewController.swift */; };
 		F4F01EE92370655F005305EA /* RoulettenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F01EE82370655F005305EA /* RoulettenViewController.swift */; };
 		F4F01EED237065DE005305EA /* KogebogenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F01EEC237065DE005305EA /* KogebogenViewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		2737C667236DD9E900AFE8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2737C66A236DD9E900AFE8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2737C66C236DD9E900AFE8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2737C67223718F3400AFE8FA /* Dish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dish.storyboard; sourceTree = "<group>"; };
+		2737C6742371954800AFE8FA /* DishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
 		F4F01EE82370655F005305EA /* RoulettenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoulettenViewController.swift; sourceTree = "<group>"; };
 		F4F01EEC237065DE005305EA /* KogebogenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KogebogenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				2737C66C236DD9E900AFE8FA /* Info.plist */,
 				F4F01EE82370655F005305EA /* RoulettenViewController.swift */,
 				F4F01EEC237065DE005305EA /* KogebogenViewController.swift */,
+				2737C67223718F3400AFE8FA /* Dish.storyboard */,
+				2737C6742371954800AFE8FA /* DishViewController.swift */,
 			);
 			path = Madroulette;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				2737C66B236DD9E900AFE8FA /* LaunchScreen.storyboard in Resources */,
 				2737C668236DD9E900AFE8FA /* Assets.xcassets in Resources */,
+				2737C67323718F3400AFE8FA /* Dish.storyboard in Resources */,
 				2737C666236DD9E600AFE8FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				2737C65D236DD9E600AFE8FA /* AppDelegate.swift in Sources */,
 				F4F01EE92370655F005305EA /* RoulettenViewController.swift in Sources */,
 				2737C65F236DD9E600AFE8FA /* SceneDelegate.swift in Sources */,
+				2737C6752371954800AFE8FA /* DishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
